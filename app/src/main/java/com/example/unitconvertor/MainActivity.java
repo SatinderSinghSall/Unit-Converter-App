@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(TextUtils.isEmpty(userNumber)) {
                     userInput.setError("Please enter a value!");
-                    Toast.makeText(MainActivity.this, "Input field can not be empty.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Input field can not be empty.", Toast.LENGTH_LONG).show();
                     return;
                 }
 
